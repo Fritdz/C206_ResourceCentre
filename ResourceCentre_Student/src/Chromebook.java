@@ -13,7 +13,7 @@ public class Chromebook extends Item{
 	
 	public String toString(){
 		String output = "";
-		// Write your codes here
+		output += "Chromebook: " + this.getAssetTag() + "/nDescription: " +  this.getDescription() + "/nOS: " + this.getOs();
 		return output;
 	}
 }
