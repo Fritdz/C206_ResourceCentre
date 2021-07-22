@@ -14,6 +14,7 @@ public class Camcorder extends Item{
 	public String toString(){
 		String output = "";
 		// Write your codes here
+		output += "Camcorder: " + this.getAssetTag() + "/nDescription: " +  this.getDescription() + "/nOptical Zoom: " + this.getOpticalZoom();
 		return output;
 	}
 }
